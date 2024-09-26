@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інтернет-магазин телефонних аксесуарів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            color: #FFD700;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFD700;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #000000;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product {
+            display: inline-block;
+            margin: 20px;
+            border: 1px solid #000000;
+            padding: 15px;
+            width: 200px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            margin: 10px 0;
+            color: #FFD700;
+        }
+
+        .product button {
+            background-color: #000000;
+            color: #ffffff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .product button:hover {
+            background-color: #FFD700;
+            color: #000000;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .payment-methods img {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Магазин телефонних аксесуарів</h1>
+    </header>
+
+    <nav>
+        <a href="#">Головна</a>
+        <a href="#">Товари</a>
+        <a href="#">Контакти</a>
+    </nav>
+
+    <div class="container">
+        <h2>Найпопулярніші товари</h2>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Чохол для телефону">
+            <h3>Чохол для телефону</h3>
+            <p>Ціна: 500 грн</p>
+            <button>Додати до кошика</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Захисне скло">
+            <h3>Захисне скло</h3>
+            <p>Ціна: 300 грн</p>
+            <button>Додати до кошика</button>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/200" alt="Навушники">
+            <h3>Навушники</h3>
+            <p>Ціна: 800 грн</p>
+            <button>Додати до кошика</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Методи оплати</h2>
+        <div class="payment-methods">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Apple_Pay_logo.svg/200px-Apple_Pay_logo.svg.png" alt="Apple Pay">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Google_Pay_Logo.svg/200px-Google_Pay_Logo.svg.png" alt="Google Pay">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Магазин телефонних аксесуарів</p>
+    </footer>
+
+</body>
+</html>
